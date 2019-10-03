@@ -64,10 +64,10 @@ public class Aluno {
         else{
             int media=(nota1+nota2+nota3+nota4)/4;
             if(media>7){
-                retorno=this.nome+"foi aprovado";
+                retorno="aprovado";
             }
             else{
-                retorno=this.nome+"foi reprovado";
+                retorno="reprovado";
             }
         }
         return retorno;

@@ -12,13 +12,15 @@ public class Escola {
         return nomeEscola;
     }
 
-    public void setNome(String nome) {
+    public void setNomeEscola(String nomeEscola) {
         this.nomeEscola = nomeEscola;
     }
 
     public void exibirTurma(){
         for(Turma t : turmas){
-            System.out.println("Nome Turma: "+this.getNomeEscola()+"  Turma: " + t.getNomeTurma());
+            System.out.println(" Turma: " + t.getNomeTurma()+"\r\n|||||||||||||||||||||||||||||||||||||||||||");
+            t.exibirALunos();
+            System.out.println("\r\n|||||||||||||||||||||||||||||||||||||||||||");
     }
     }
 

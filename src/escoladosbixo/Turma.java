@@ -24,7 +24,7 @@ public class Turma {
     
     public void exibirALunos(){
         for(Aluno a: alunos){
-            System.out.println("nome turma"+this.getNomeTurma()+" Alunos :"+ a.getNome()+ " cod aluno: "+ a.getCodAluno());
+            System.out.println(" nome: "+a.getNome()+ " cod aluno: "+ a.getCodAluno()+"\r\n Notas:"+a.getNota1()+","+a.getNota2()+","+a.getNota3()+","+a.getNota4()+"\r\n situação:"+a.exibirSituaçao()+"\r\n_______________________________");
         }
     }
     
